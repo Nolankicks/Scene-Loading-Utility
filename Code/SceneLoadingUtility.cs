@@ -204,7 +204,7 @@ namespace SceneLoading
 						}
 						else
 						{
-							Log.Error( "The 'Children' node is not of type 'JsonArray'." );
+							Log.Warning( "The 'Children' node is not of type 'JsonArray'." );
 						}
 					}
 				}
@@ -265,7 +265,7 @@ namespace SceneLoading
 						}
 						else
 						{
-							Log.Error( "The 'Children' node is not of type 'JsonArray'." );
+							Log.Warning( "The 'Children' node is not of type 'JsonArray'." );
 						}
 					}
 				}
@@ -308,7 +308,7 @@ namespace SceneLoading
 						}
 						else
 						{
-							Log.Error( "The 'Children' node is not of type 'JsonArray'." );
+							Log.Warning( "The 'Children' node is not of type 'JsonArray'." );
 						}
 					}
 				}
